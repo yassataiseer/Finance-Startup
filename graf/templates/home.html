@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<title>MoneyManagement</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+  <div style="padding:20px;margin-top:30px;background-color:#ff9d00;height:150000px;text-align:center">
+    <fieldset>
+
+
+<h1 > Money Management </h1>
+<h5>Money Management is a tool that analyzes your monthly income and with out algorithm gives you suggestion 
+    on how you can invest your money to make more money, with the least amount of risk.
+</h5>
+
+<h5> By organizing your monthly expenses on a month to month bases you can organize yourself
+    and save and earn extra money.
+</h5>
+<form name="story" action="/month" style="text-align:center" method="POST">
+    <br>
+    <br>
+    <br>
+
+<h4> Enter your monthly income after taxes</h4>
+<input type="number" id="income" name="income" min="1" required>
+<br>
+<br>
+<br>
+
+<h4> Enter your total cost for non negotiable liabilities(things you cannot change easily;rent,utilities bills,morgage)</h4>
+<input type="number" id="liabilities" name="liabilities" min="1" required>
+<br>
+<br>
+<br>
+
+<h4> Enter your total cost for negotiable liabilities(things you can easily change; food,memberships,phoneplans)</h4>
+<input type="number" id="negotiable" name="negotiable" min="1" required>
+<br>
+<br>
+<br>
+<h4> Enter amount spent on non essentails (clothes,furniture)</h4>
+<input type="number" id="noessentials" name="noessentials" min="1" required>
+<br>
+<br>
+<br>
+<h4> Enter amount saved </h4>
+<input type="number" id="saved" name="saved" min="1" required>
+<br>
+<br>
+<input type="submit"   value="submit" class="button" >
+
+</form>
+<h6> Money Managment is a respectful website and will delete all info upon leaving the site</h6>
+</fieldset>
+</html>
